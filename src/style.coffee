@@ -27,7 +27,8 @@ class Style
   
     styles = [
       @css @selector, [
-        "  background: url( '#{ relativeImagePath }' ) no-repeat"
+        "  background-image: url( '#{ relativeImagePath }' )"
+        "  background-repeat:  no-repeat"
         "  background-size: #{ width / pixelRatio }px #{ height / pixelRatio }px"
       ]
     ]
